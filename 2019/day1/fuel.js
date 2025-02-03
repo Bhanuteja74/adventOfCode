@@ -1,5 +1,5 @@
 const input = () => {
-  const data = Deno.readTextFileSync("./2019/day1/input.txt");
+  const data = Deno.readTextFileSync("./day1/input.txt");
   return data.split("\n");
 };
 
@@ -32,4 +32,3 @@ const main = () => {
 };
 
 main();
-//something.
